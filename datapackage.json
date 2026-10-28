@@ -35,7 +35,12 @@
       "path": "data/early-in-person-voting-2026/chart-inperson-margin.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Early in-person voters moved toward Democrats in all four states. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: Florida 9, Kansas 8, Iowa 11, North Carolina 11.",
+      "description": "Early in-person voters moved toward Democrats in all four states. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: Florida 9, Kansas 8, Iowa 11, North Carolina 11. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -72,7 +77,12 @@
       "path": "data/early-in-person-voting-2026/chart-inperson-fl-democrats.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Florida Democrats moved from mailboxes to early-voting sites. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 9 days before Election Day in each year.",
+      "description": "Florida Democrats moved from mailboxes to early-voting sites. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 9 days before Election Day in each year. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -104,7 +114,12 @@
       "path": "data/early-in-person-voting-2026/chart-inperson-mail-share.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Mail’s share of the early vote fell in every state. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Same days before Election Day as the in-person chart.",
+      "description": "Mail’s share of the early vote fell in every state. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Same days before Election Day as the in-person chart. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -136,7 +151,12 @@
       "path": "data/early-in-person-voting-2026/chart-inperson-overall.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Counting mail and in-person ballots together, the shift is smaller and Iowa moved the other way. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Same days before Election Day as the in-person chart.",
+      "description": "Counting mail and in-person ballots together, the shift is smaller and Iowa moved the other way. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Same days before Election Day as the in-person chart. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -382,7 +402,12 @@
       "path": "data/kansas-early-vote-2026/chart-ks-early-total.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Registered Democrats lead by 5.2 points. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Republicans led in 2022 and 2024. Party is voter registration, not vote choice. The 2026 comparison extract excludes Elk, Greeley and Wabaunsee (102 counties); the original source includes all 105. Earlier statewide totals cover all counties. Margin = (Democratic ballots − Republican ballots) ÷ all early ballots × 100.",
+      "description": "Registered Democrats lead by 5.2 points. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Republicans led in 2022 and 2024. Party is voter registration, not vote choice. The 2026 comparison extract excludes Elk, Greeley and Wabaunsee (102 counties); the original source includes all 105. Earlier statewide totals cover all counties. Margin = (Democratic ballots − Republican ballots) ÷ all early ballots × 100. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -434,7 +459,12 @@
       "path": "data/kansas-early-vote-2026/chart-ks-county-shift.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Compared with the same point in 2022, Johnson’s early voters have gone from a Republican lead to a Democratic one. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Final 2024 ballot weights: Kansas Secretary of State presidential workbook turnout sheet. Dots and rings measure early voters’ registered parties at eight days out, not candidate choices. Filled dots are 2026; rings are 2022. Rest of Kansas combines the same 98 cover",
+      "description": "Compared with the same point in 2022, Johnson’s early voters have gone from a Republican lead to a Democratic one. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Final 2024 ballot weights: Kansas Secretary of State presidential workbook turnout sheet. Dots and rings measure early voters’ registered parties at eight days out, not candidate choices. Filled dots are 2026; rings are 2022. Rest of Kansas combines the same 98 cover Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -546,7 +576,12 @@
       "path": "data/kansas-early-vote-2026/chart-ks-voter-history.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Early voters who cast ballots in all four recent general elections went from R+9.6 to D+2.9. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Voters with no recent record are about 3% of the early count. Groups count how many of the four preceding general elections each early voter cast a ballot in, from each cycle’s matched voter file: 2014–2020 for 2022 and 2018–2024 for 2026. “None of the last four” includes newly eligible v",
+      "description": "Early voters who cast ballots in all four recent general elections went from R+9.6 to D+2.9. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Voters with no recent record are about 3% of the early count. Groups count how many of the four preceding general elections each early voter cast a ballot in, from each cycle’s matched voter file: 2014–2020 for 2022 and 2018–2024 for 2026. “None of the last four” includes newly eligible v Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -628,7 +663,12 @@
       "path": "data/kansas-early-vote-2026/chart-ks-urban-rural.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Rural early voters remain heavily Republican. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Urban and suburban voters are arriving faster. Both years use the same 102 covered counties. Turnout = early ballots ÷ registered voters × 100. Some small counties had barely reported at the 2022 comparison point. Underlying voter files are not reproduced; aggregate denominators are in the table.",
+      "description": "Rural early voters remain heavily Republican. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Urban and suburban voters are arriving faster. Both years use the same 102 covered counties. Turnout = early ballots ÷ registered voters × 100. Some small counties had barely reported at the 2022 comparison point. Underlying voter files are not reproduced; aggregate denominators are in the table. Source: Carmena’s Overton; early votes via ColdSpark, county types via L2.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark, county types via L2."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -695,7 +735,12 @@
       "path": "data/kansas-early-vote-2026/chart-ks-early-share.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "About 4 in 10 Kansas midterm ballots are cast early. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. This year’s early count is well ahead of 2022’s. Kansas Secretary of State: advance in-person and returned mail ballots and total ballots, 2016–2020 (election statistics charts); total ballots, 2022 turnout workbook and 2024 presidential workbook. Early ballots are advance ballots cast in person plus mail ballots returned, incl",
+      "description": "About 4 in 10 Kansas midterm ballots are cast early. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. This year’s early count is well ahead of 2022’s. Kansas Secretary of State: advance in-person and returned mail ballots and total ballots, 2016–2020 (election statistics charts); total ballots, 2022 turnout workbook and 2024 presidential workbook. Early ballots are advance ballots cast in person plus mail ballots returned, incl Source: Carmena’s Overton; 2022–24 early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; 2022–24 early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -752,7 +797,12 @@
       "path": "data/kansas-early-vote-2026/chart-ks-early-margin.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "A repeat of 2022’s late shift would still leave a less Republican early electorate. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Conditional illustration calculated by Carmena’s Overton. All solid lines measure early voters’ registered parties. Dotted segment: current 2026 D-minus-R margin plus the observed 2022 change from eight days out to day zero. Exact inputs: 2026 89,923 D and 79,331 R out of 203,818; 2022 at eight da",
+      "description": "A repeat of 2022’s late shift would still leave a less Republican early electorate. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Conditional illustration calculated by Carmena’s Overton. All solid lines measure early voters’ registered parties. Dotted segment: current 2026 D-minus-R margin plus the observed 2022 change from eight days out to day zero. Exact inputs: 2026 89,923 D and 79,331 R out of 203,818; 2022 at eight da Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -814,7 +864,12 @@
       "path": "data/kansas-early-vote-2026/chart-ks-party-vs-results.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Republicans outnumbered Democrats among Johnson’s 2024 voters by about 10 points. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Harris won the county by about 8. Presidential votes: Kansas Secretary of State official 2024 presidential workbook. The first row counts Johnson County residents recorded as voting in the 2024 general election by any method, including Election Day, by the party in the April 2, 2025 voter file; it i",
+      "description": "Republicans outnumbered Democrats among Johnson’s 2024 voters by about 10 points. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Harris won the county by about 8. Presidential votes: Kansas Secretary of State official 2024 presidential workbook. The first row counts Johnson County residents recorded as voting in the 2024 general election by any method, including Election Day, by the party in the April 2, 2025 voter file; it i Source: Carmena’s Overton; 2024 turnout via Redistricting Data Hub / L2.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; 2024 turnout via Redistricting Data Hub / L2."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -866,7 +921,12 @@
       "path": "data/north-carolina-early-vote-2026/chart-nc-reg-vs-early.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Registered voters moved toward Republicans. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Early voters moved 10 points toward Democrats. Registered party of early voters and of all registered voters, 11 days before Election Day in each year. Margins are Democrats minus Republicans as a share of all voters, including unaffiliated.",
+      "description": "Registered voters moved toward Republicans. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Early voters moved 10 points toward Democrats. Registered party of early voters and of all registered voters, 11 days before Election Day in each year. Margins are Democrats minus Republicans as a share of all voters, including unaffiliated. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -898,7 +958,12 @@
       "path": "data/north-carolina-early-vote-2026/chart-nc-party-rates.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "About 25% of registered Democrats have voted early, against 15% of Republicans. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Early mail and in-person ballots divided by registered voters of the same party, 11 days before Election Day.",
+      "description": "About 25% of registered Democrats have voted early, against 15% of Republicans. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Early mail and in-person ballots divided by registered voters of the same party, 11 days before Election Day. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -962,7 +1027,12 @@
       "path": "data/north-carolina-early-vote-2026/chart-nc-county-shift.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Every large county moved toward Democrats, and several suburban and exurban counties switched sides. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Registered party of early voters, same day in both years.",
+      "description": "Every large county moved toward Democrats, and several suburban and exurban counties switched sides. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Registered party of early voters, same day in both years. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1036,7 +1106,12 @@
       "path": "data/north-carolina-early-vote-2026/chart-nc-voter-history.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Voters who cast ballots in all four recent general elections are 67% of the early vote, and they lean further toward Democrats than in 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026, from each cycle’s matched voter file.",
+      "description": "Voters who cast ballots in all four recent general elections are 67% of the early vote, and they lean further toward Democrats than in 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026, from each cycle’s matched voter file. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1137,7 +1212,12 @@
       "path": "data/north-carolina-early-vote-2026/chart-habit-nc-groups.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "North Carolina’s most consistent Democrats have accelerated the most since 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 8 days before Election Day in each year. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026.",
+      "description": "North Carolina’s most consistent Democrats have accelerated the most since 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 8 days before Election Day in each year. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1169,7 +1249,12 @@
       "path": "data/north-carolina-early-vote-2026/chart-habit-nc-unit.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Of every 100 North Carolina Democratic four-time voters, 55 have already voted. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 8 days before Election Day in each year.",
+      "description": "Of every 100 North Carolina Democratic four-time voters, 55 have already voted. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 8 days before Election Day in each year. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1206,7 +1291,12 @@
       "path": "data/reliable-voters-early-turnout-2026/chart-habit-party-rates.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Democrats have used more of their reliable-voter pool, and the gap has widened since 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8. Four-time voters voted in 2014–2020 for the 2022 comparison and 2018–2024 for 2026. These are changing cohorts, not a panel of the same people.",
+      "description": "Democrats have used more of their reliable-voter pool, and the gap has widened since 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8. Four-time voters voted in 2014–2020 for the 2022 comparison and 2018–2024 for 2026. These are changing cohorts, not a panel of the same people. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1253,7 +1343,12 @@
       "path": "data/reliable-voters-early-turnout-2026/chart-habit-overall-margins.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Early voters lean further toward Democrats than at the same point in 2022 and 2024. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Matched counties across all three years. Margins are (Democratic minus Republican ballots) / all early ballots, including other parties. Coverage: North Carolina 100 counties, Florida 67, Kansas 103 matched counties. The statewide-total and voting-history extracts are separate source slices and do",
+      "description": "Early voters lean further toward Democrats than at the same point in 2022 and 2024. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Matched counties across all three years. Margins are (Democratic minus Republican ballots) / all early ballots, including other parties. Coverage: North Carolina 100 counties, Florida 67, Kansas 103 matched counties. The statewide-total and voting-history extracts are separate source slices and do Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1310,7 +1405,12 @@
       "path": "data/reliable-voters-early-turnout-2026/chart-habit-gap-change.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "The gap between the parties’ four-time voters widened most in North Carolina. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8.",
+      "description": "The gap between the parties’ four-time voters widened most in North Carolina. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1347,7 +1447,12 @@
       "path": "data/reliable-voters-early-turnout-2026/chart-habit-gap-states.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Among four-time voters, Democrats’ lead in early-turnout rate grew in all seven states. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026. Registered party, not vote choice.",
+      "description": "Among four-time voters, Democrats’ lead in early-turnout rate grew in all seven states. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026. Registered party, not vote choice. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",
@@ -1389,7 +1494,12 @@
       "path": "data/reliable-voters-early-turnout-2026/chart-habit-lead-share.csv",
       "format": "csv",
       "mediatype": "text/csv",
-      "description": "Changes in four-time voters’ turnout account for about half or more of the turnout-driven gain in Democrats’ early lead. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Four-time voters’ part: the 2026 lead minus the lead with only four-time voters returned to their 2022 rates. Same day in both years; days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8.",
+      "description": "Changes in four-time voters’ turnout account for about half or more of the turnout-driven gain in Democrats’ early lead. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Four-time voters’ part: the 2026 lead minus the lead with only four-time voters returned to their 2022 rates. Same day in both years; days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8. Source: Carmena’s Overton; early votes via ColdSpark.",
+      "sources": [
+        {
+          "title": "Carmena’s Overton; early votes via ColdSpark."
+        }
+      ],
       "licenses": [
         {
           "name": "CC-BY-4.0",

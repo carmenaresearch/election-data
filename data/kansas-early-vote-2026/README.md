@@ -25,6 +25,16 @@ Carmena’s Overton compiles cumulative early-ballot counts from state and count
 - All solid lines measure early voters’ registered parties. Dotted segment: current 2026 D-minus-R margin plus the observed 2022 change from eight days out to day zero. Exact inputs: 2026 89,923 D and 79,331 R out of 203,818; 2022 at eight days out 57,281 D and 61,937 R out of 135,670; completed 2022 early count 145,079 D and 190,662 R out of 387,668. Only the hypothetical endpoint is calculated; the straight connecting segment is not a daily projection. This is not a forecast of turnout or candidate votes. Current coverage is 102 counties, historical statewide totals cover 105.
 - The first row counts Johnson County residents recorded as voting in the 2024 general election by any method, including Election Day, by the party in the April 2, 2025 voter file; it is not a reconstructed election-day affiliation. The file records 345,069 voters, 99.0% of the county’s 348,594 certified ballots. Party margins use all recorded voters; the presidential margin uses votes for all candidates. Unaffiliated voters and cross-party support both contribute to the gap; totals cannot identify individual crossover voters.
 
+## Credits
+Our licences for some inputs require these credits. Keep them when you reuse the file.
+- `chart-ks-early-total.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-ks-county-shift.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-ks-voter-history.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-ks-urban-rural.csv`: Source: Carmena’s Overton; early votes via ColdSpark, county types via L2.
+- `chart-ks-early-share.csv`: Source: Carmena’s Overton; 2022–24 early votes via ColdSpark.
+- `chart-ks-early-margin.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-ks-party-vs-results.csv`: Source: Carmena’s Overton; 2024 turnout via Redistricting Data Hub / L2.
+
 ## Also on
 - Kaggle: [Kansas Early Vote 2026: Party, County, History](https://www.kaggle.com/datasets/carmenaresearch/kansas-early-vote-2026)
 - Our data page: [carmenaresearch.com/data](https://carmenaresearch.com/data/)

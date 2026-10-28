@@ -21,6 +21,14 @@ Carmena’s Overton compiles cumulative early-ballot counts from state and count
 - Days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026. Registered party, not vote choice.
 - Four-time voters’ part: the 2026 lead minus the lead with only four-time voters returned to their 2022 rates. Same day in both years; days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8.
 
+## Credits
+Our licences for some inputs require these credits. Keep them when you reuse the file.
+- `chart-habit-party-rates.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-habit-overall-margins.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-habit-gap-change.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-habit-gap-states.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-habit-lead-share.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+
 ## Also on
 - Kaggle: [Reliable Voters’ Early Turnout by Party 2026](https://www.kaggle.com/datasets/carmenaresearch/reliable-voters-early-turnout-2026)
 - Our data page: [carmenaresearch.com/data](https://carmenaresearch.com/data/)

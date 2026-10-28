@@ -28,7 +28,7 @@ df = pd.read_csv(url)
 
 ## Licence and citation
 
-[CC BY 4.0](LICENSE). Credit “Carmena’s Overton & Electoral Research” and link to the file or page you used. Figures we quote from other organisations, such as NBC News / TargetSmart, the Silver Bulletin and 538, remain theirs; credit them too. See [CITATION.cff](CITATION.cff) or use GitHub’s “Cite this repository”.
+[CC BY 4.0](LICENSE). Credit “Carmena’s Overton & Electoral Research” and link to the file or page you used. Figures we quote from other organisations, such as NBC News / TargetSmart, the Silver Bulletin and 538, remain theirs; credit them too. Files built on licensed early-vote or voter-file inputs carry a required credit (for example “early votes via ColdSpark”), listed under Credits in each dataset README and in `datapackage.json`; keep it when you reuse them. See [CITATION.cff](CITATION.cff) or use GitHub’s “Cite this repository”.
 
 ## More from Carmena’s Overton
 

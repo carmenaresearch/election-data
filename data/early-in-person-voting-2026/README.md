@@ -18,6 +18,13 @@ Carmena’s Overton compiles cumulative early-ballot counts from state and count
 - 9 days before Election Day in each year.
 - Same days before Election Day as the in-person chart.
 
+## Credits
+Our licences for some inputs require these credits. Keep them when you reuse the file.
+- `chart-inperson-margin.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-inperson-fl-democrats.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-inperson-mail-share.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-inperson-overall.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+
 ## Also on
 - Kaggle: [Early In-Person vs Mail Voting 2026, 4 States](https://www.kaggle.com/datasets/carmenaresearch/early-in-person-voting-2026)
 - Our data page: [carmenaresearch.com/data](https://carmenaresearch.com/data/)

@@ -31,6 +31,15 @@ Carmena’s Overton compiles cumulative early-ballot counts from state and count
 - 8 days before Election Day in each year. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026.
 - 8 days before Election Day in each year.
 
+## Credits
+Our licences for some inputs require these credits. Keep them when you reuse the file.
+- `chart-nc-reg-vs-early.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-nc-party-rates.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-nc-county-shift.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-nc-voter-history.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-habit-nc-groups.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+- `chart-habit-nc-unit.csv`: Source: Carmena’s Overton; early votes via ColdSpark.
+
 ## Also on
 - Kaggle: [North Carolina Early Vote 2026 by Party](https://www.kaggle.com/datasets/carmenaresearch/north-carolina-early-vote-2026)
 - Our data page: [carmenaresearch.com/data](https://carmenaresearch.com/data/)
