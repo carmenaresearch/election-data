@@ -1,0 +1,1828 @@
+{
+  "profile": "data-package",
+  "name": "carmena-election-data",
+  "title": "US election and early-vote data, 2016–2026",
+  "description": "Public CC BY 4.0 tables behind Carmena’s Overton & Electoral Research charts: early voting by party, county and vote history, the generic ballot, Senate battleground pace and tracker-method checks.",
+  "homepage": "https://carmenaresearch.com/data/",
+  "version": "2026-10-28",
+  "created": "2026-10-28",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "path": "https://creativecommons.org/licenses/by/4.0/",
+      "title": "Creative Commons Attribution 4.0"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Carmena’s Overton & Electoral Research",
+      "path": "https://carmenaresearch.com/",
+      "email": "queries@carmenaresearch.com",
+      "role": "author"
+    }
+  ],
+  "keywords": [
+    "elections",
+    "early voting",
+    "voter turnout",
+    "United States",
+    "2026 midterms",
+    "political science"
+  ],
+  "resources": [
+    {
+      "name": "early-in-person-voting-2026--chart-inperson-margin",
+      "path": "data/early-in-person-voting-2026/chart-inperson-margin.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Early in-person voters moved toward Democrats in all four states. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: Florida 9, Kansas 8, Iowa 11, North Carolina 11.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022",
+            "type": "number"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026",
+            "type": "number"
+          },
+          {
+            "name": "days",
+            "description": "Days before Election Day",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-in-person-voting-2026--chart-inperson-fl-democrats",
+      "path": "data/early-in-person-voting-2026/chart-inperson-fl-democrats.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Florida Democrats moved from mailboxes to early-voting sites. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 9 days before Election Day in each year.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "Method",
+            "type": "string"
+          },
+          {
+            "name": "v2022",
+            "description": "2022",
+            "type": "number"
+          },
+          {
+            "name": "v2026",
+            "description": "2026",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-in-person-voting-2026--chart-inperson-mail-share",
+      "path": "data/early-in-person-voting-2026/chart-inperson-mail-share.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Mail’s share of the early vote fell in every state. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Same days before Election Day as the in-person chart.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "v2022",
+            "description": "2022 (%)",
+            "type": "number"
+          },
+          {
+            "name": "v2026",
+            "description": "2026 (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-in-person-voting-2026--chart-inperson-overall",
+      "path": "data/early-in-person-voting-2026/chart-inperson-overall.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Counting mail and in-person ballots together, the shift is smaller and Iowa moved the other way. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Same days before Election Day as the in-person chart.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022",
+            "type": "number"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-vote-tracker-methods--chart-county-bias",
+      "path": "data/early-vote-tracker-methods/chart-county-bias.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "How far the county method understated the Democratic early-vote margin. Early votes with known party in 8 states; 2024 county results. Tested only in the 8 states where party is known from records.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "state",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "bias",
+            "description": "Bias of county method (points)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-vote-tracker-methods--chart-bellwethers",
+      "path": "data/early-vote-tracker-methods/chart-bellwethers.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Share of counties that moved with the nation, within 4 points. County House results across midterms. A perfect past record adds 0–4 points of predictive edge.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "midterms",
+            "description": "Midterms",
+            "type": "string"
+          },
+          {
+            "name": "low",
+            "description": "Low (%)",
+            "type": "number"
+          },
+          {
+            "name": "high",
+            "description": "High (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-vote-tracker-methods--chart-voterfile-access",
+      "path": "data/early-vote-tracker-methods/chart-voterfile-access.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Where voter files are free, with no account or form. State and county election office access policies. Cheapest paid files: Pennsylvania about $20, Alaska about $21.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "place",
+            "description": "Place",
+            "type": "string"
+          },
+          {
+            "name": "access",
+            "description": "Access",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-vote-tracker-methods--chart-oh-agree",
+      "path": "data/early-vote-tracker-methods/chart-oh-agree.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Ohio early voters: state file against the tracker. Ohio SOS absentee file (party from last primary); NBC News / TargetSmart. The two sources agree on the margin and disagree on independents.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "party",
+            "description": "Party",
+            "type": "string"
+          },
+          {
+            "name": "stateFile",
+            "description": "State file",
+            "type": "number"
+          },
+          {
+            "name": "tracker",
+            "description": "Tracker",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-vote-tracker-methods--chart-tx-records",
+      "path": "data/early-vote-tracker-methods/chart-tx-records.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Texas early voters: state records against the tracker. Texas SOS early-vote rosters joined to 2026 primary rosters (2,159,376 early voters, through Oct 21); NBC News / TargetSmart tracker, Oct 23, 2026. Adding 2022 and 2024 primaries in 4 counties (25% of votes) moved the margin about 0.6 pt. The tracker read D 49, R 42, Other 9 (D+7) on Oct 22.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "party",
+            "description": "Party",
+            "type": "string"
+          },
+          {
+            "name": "stateRecords",
+            "description": "State records",
+            "type": "number"
+          },
+          {
+            "name": "tracker",
+            "description": "Tracker",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-vote-tracker-methods--chart-tx-new-voters",
+      "path": "data/early-vote-tracker-methods/chart-tx-new-voters.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Texas 2026 early voters by vote history and party. Texas early-vote rosters joined to 2022 and 2024 vote history, Oct 23, 2026. Nationally, 80% of early voters voted in both 2022 and 2024. “New” = voted in neither 2022 nor 2024.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "history",
+            "description": "Vote history",
+            "type": "string"
+          },
+          {
+            "name": "democrats",
+            "description": "Democrats (%)",
+            "type": "number"
+          },
+          {
+            "name": "republicans",
+            "description": "Republicans (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "early-vote-tracker-methods--chart-new-voters-swing",
+      "path": "data/early-vote-tracker-methods/chart-new-voters-swing.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Correlation of county new-voter share with the presidential swing. County new-voter shares and presidential swing, North Carolina and Ohio. Correlation across counties, not a measure of individual voters. In 2024 the correlation was about zero.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "group",
+            "description": "Group",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "description": "Year",
+            "type": "number"
+          },
+          {
+            "name": "r",
+            "description": "Correlation (r)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kansas-early-vote-2026--chart-ks-early-total",
+      "path": "data/kansas-early-vote-2026/chart-ks-early-total.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Registered Democrats lead by 5.2 points. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Republicans led in 2022 and 2024. Party is voter registration, not vote choice. The 2026 comparison extract excludes Elk, Greeley and Wabaunsee (102 counties); the original source includes all 105. Earlier statewide totals cover all counties. Margin = (Democratic ballots − Republican ballots) ÷ all early ballots × 100.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "description": "Election",
+            "type": "number"
+          },
+          {
+            "name": "earlyVotes",
+            "description": "Early votes, eight days out",
+            "type": "number"
+          },
+          {
+            "name": "dem",
+            "description": "Democrats",
+            "type": "number"
+          },
+          {
+            "name": "rep",
+            "description": "Republicans",
+            "type": "number"
+          },
+          {
+            "name": "oth",
+            "description": "Unaffiliated and other",
+            "type": "number"
+          },
+          {
+            "name": "margin",
+            "description": "Margin",
+            "type": "number"
+          },
+          {
+            "name": "date",
+            "description": "Date",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kansas-early-vote-2026--chart-ks-county-shift",
+      "path": "data/kansas-early-vote-2026/chart-ks-county-shift.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Compared with the same point in 2022, Johnson’s early voters have gone from a Republican lead to a Democratic one. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Final 2024 ballot weights: Kansas Secretary of State presidential workbook turnout sheet. Dots and rings measure early voters’ registered parties at eight days out, not candidate choices. Filled dots are 2026; rings are 2022. Rest of Kansas combines the same 98 cover",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "county",
+            "description": "County",
+            "type": "string"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026 margin",
+            "type": "number"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022 margin",
+            "type": "number"
+          },
+          {
+            "name": "votes2026",
+            "description": "2026 early votes",
+            "type": "number"
+          },
+          {
+            "name": "dem2026",
+            "description": "2026 registered Democrats",
+            "type": "number"
+          },
+          {
+            "name": "rep2026",
+            "description": "2026 registered Republicans",
+            "type": "number"
+          },
+          {
+            "name": "oth2026",
+            "description": "2026 unaffiliated and other",
+            "type": "number"
+          },
+          {
+            "name": "votes2022",
+            "description": "2022 early votes",
+            "type": "number"
+          },
+          {
+            "name": "margin2024",
+            "description": "2024 margin",
+            "type": "number"
+          },
+          {
+            "name": "votes2024",
+            "description": "2024 early votes",
+            "type": "number"
+          },
+          {
+            "name": "stateShare2022",
+            "description": "2022 share of statewide early ballots",
+            "type": "number"
+          },
+          {
+            "name": "stateShare2024",
+            "description": "2024 share of statewide early ballots",
+            "type": "number"
+          },
+          {
+            "name": "stateShare2026",
+            "description": "2026 share of statewide early ballots",
+            "type": "number"
+          },
+          {
+            "name": "finalBallots2024",
+            "description": "County final ballots, 2024",
+            "type": "number"
+          },
+          {
+            "name": "statewideBallots2024",
+            "description": "Statewide final ballots, 2024",
+            "type": "number"
+          },
+          {
+            "name": "finalBallotShare2024",
+            "description": "County share of final ballots, 2024",
+            "type": "number"
+          },
+          {
+            "name": "statewideEarlyBallots2026",
+            "description": "Covered statewide early ballots, 2026",
+            "type": "number"
+          },
+          {
+            "name": "combinedBallots2024",
+            "description": "Johnson and Sedgwick final ballots, 2024",
+            "type": "number"
+          },
+          {
+            "name": "combinedBallotShare2024",
+            "description": "Johnson and Sedgwick share of final ballots, 2024",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kansas-early-vote-2026--chart-ks-voter-history",
+      "path": "data/kansas-early-vote-2026/chart-ks-voter-history.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Early voters who cast ballots in all four recent general elections went from R+9.6 to D+2.9. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Voters with no recent record are about 3% of the early count. Groups count how many of the four preceding general elections each early voter cast a ballot in, from each cycle’s matched voter file: 2014–2020 for 2022 and 2018–2024 for 2026. “None of the last four” includes newly eligible v",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "history",
+            "description": "Voted in previous four generals",
+            "type": "string"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026 margin",
+            "type": "number"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022 margin",
+            "type": "number"
+          },
+          {
+            "name": "share2026",
+            "description": "2026 share of early ballots",
+            "type": "number"
+          },
+          {
+            "name": "share2022",
+            "description": "2022 share of early ballots",
+            "type": "number"
+          },
+          {
+            "name": "votes2026",
+            "description": "2026 early ballots",
+            "type": "number"
+          },
+          {
+            "name": "votes2022",
+            "description": "2022 early ballots",
+            "type": "number"
+          },
+          {
+            "name": "dem2026",
+            "description": "2026 registered Democrats",
+            "type": "number"
+          },
+          {
+            "name": "rep2026",
+            "description": "2026 registered Republicans",
+            "type": "number"
+          },
+          {
+            "name": "oth2026",
+            "description": "2026 other",
+            "type": "number"
+          },
+          {
+            "name": "dem2022",
+            "description": "2022 registered Democrats",
+            "type": "number"
+          },
+          {
+            "name": "rep2022",
+            "description": "2022 registered Republicans",
+            "type": "number"
+          },
+          {
+            "name": "oth2022",
+            "description": "2022 other",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kansas-early-vote-2026--chart-ks-urban-rural",
+      "path": "data/kansas-early-vote-2026/chart-ks-urban-rural.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Rural early voters remain heavily Republican. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Urban and suburban voters are arriving faster. Both years use the same 102 covered counties. Turnout = early ballots ÷ registered voters × 100. Some small counties had barely reported at the 2022 comparison point. Underlying voter files are not reproduced; aggregate denominators are in the table.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "type",
+            "description": "County type",
+            "type": "string"
+          },
+          {
+            "name": "turnout2026",
+            "description": "2026 turnout so far",
+            "type": "number"
+          },
+          {
+            "name": "turnout2022",
+            "description": "2022 turnout at this point",
+            "type": "number"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026 margin",
+            "type": "number"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022 margin",
+            "type": "number"
+          },
+          {
+            "name": "counties",
+            "description": "Counties",
+            "type": "number"
+          },
+          {
+            "name": "votes2026",
+            "description": "2026 early votes",
+            "type": "number"
+          },
+          {
+            "name": "votes2022",
+            "description": "2022 early votes",
+            "type": "number"
+          },
+          {
+            "name": "registered2022",
+            "description": "2022 registered voters",
+            "type": "number"
+          },
+          {
+            "name": "registered2026",
+            "description": "2026 registered voters",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kansas-early-vote-2026--chart-ks-early-share",
+      "path": "data/kansas-early-vote-2026/chart-ks-early-share.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "About 4 in 10 Kansas midterm ballots are cast early. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. This year’s early count is well ahead of 2022’s. Kansas Secretary of State: advance in-person and returned mail ballots and total ballots, 2016–2020 (election statistics charts); total ballots, 2022 turnout workbook and 2024 presidential workbook. Early ballots are advance ballots cast in person plus mail ballots returned, incl",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "description": "Year",
+            "type": "number"
+          },
+          {
+            "name": "election",
+            "description": "Election",
+            "type": "string"
+          },
+          {
+            "name": "earlyShare",
+            "description": "Early share of all ballots",
+            "type": "number"
+          },
+          {
+            "name": "earlyBallots",
+            "description": "Early ballots, final",
+            "type": "number"
+          },
+          {
+            "name": "inPersonAdvance",
+            "description": "In-person advance",
+            "type": "number"
+          },
+          {
+            "name": "mailReturned",
+            "description": "Mail ballots returned",
+            "type": "number"
+          },
+          {
+            "name": "totalBallots",
+            "description": "All ballots",
+            "type": "number"
+          },
+          {
+            "name": "eightDaysOut",
+            "description": "Early ballots, eight days out",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kansas-early-vote-2026--chart-ks-early-margin",
+      "path": "data/kansas-early-vote-2026/chart-ks-early-margin.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "A repeat of 2022’s late shift would still leave a less Republican early electorate. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Conditional illustration calculated by Carmena’s Overton. All solid lines measure early voters’ registered parties. Dotted segment: current 2026 D-minus-R margin plus the observed 2022 change from eight days out to day zero. Exact inputs: 2026 89,923 D and 79,331 R out of 203,818; 2022 at eight da",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "daysOut",
+            "description": "Days before Election Day",
+            "type": "number"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026 margin",
+            "type": "number"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022 margin",
+            "type": "number"
+          },
+          {
+            "name": "margin2024",
+            "description": "2024 margin",
+            "type": "number"
+          },
+          {
+            "name": "votes2026",
+            "description": "2026 early votes",
+            "type": "number"
+          },
+          {
+            "name": "votes2022",
+            "description": "2022 early votes",
+            "type": "number"
+          },
+          {
+            "name": "votes2024",
+            "description": "2024 early votes",
+            "type": "number"
+          },
+          {
+            "name": "hypotheticalMargin2026",
+            "description": "Hypothetical 2026 early margin if the remaining 2022 shift repeats",
+            "type": "number"
+          },
+          {
+            "name": "lateShift2022",
+            "description": "2022 registration-margin change from eight days out to day zero",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "kansas-early-vote-2026--chart-ks-party-vs-results",
+      "path": "data/kansas-early-vote-2026/chart-ks-party-vs-results.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Republicans outnumbered Democrats among Johnson’s 2024 voters by about 10 points. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Harris won the county by about 8. Presidential votes: Kansas Secretary of State official 2024 presidential workbook. The first row counts Johnson County residents recorded as voting in the 2024 general election by any method, including Election Day, by the party in the April 2, 2025 voter file; it i",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "population",
+            "description": "Population or race",
+            "type": "string"
+          },
+          {
+            "name": "measure",
+            "description": "Measure",
+            "type": "string"
+          },
+          {
+            "name": "democratic",
+            "description": "Democratic voters or candidate votes",
+            "type": "number"
+          },
+          {
+            "name": "republican",
+            "description": "Republican voters or candidate votes",
+            "type": "number"
+          },
+          {
+            "name": "other",
+            "description": "Other voters or candidate votes",
+            "type": "number"
+          },
+          {
+            "name": "total",
+            "description": "Denominator",
+            "type": "number"
+          },
+          {
+            "name": "margin",
+            "description": "D minus R margin",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-nc-reg-vs-early",
+      "path": "data/north-carolina-early-vote-2026/chart-nc-reg-vs-early.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Registered voters moved toward Republicans. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Early voters moved 10 points toward Democrats. Registered party of early voters and of all registered voters, 11 days before Election Day in each year. Margins are Democrats minus Republicans as a share of all voters, including unaffiliated.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "Group",
+            "type": "string"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022",
+            "type": "number"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-nc-party-rates",
+      "path": "data/north-carolina-early-vote-2026/chart-nc-party-rates.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "About 25% of registered Democrats have voted early, against 15% of Republicans. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Early mail and in-person ballots divided by registered voters of the same party, 11 days before Election Day.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "Party",
+            "type": "string"
+          },
+          {
+            "name": "v2022",
+            "description": "2022 (%)",
+            "type": "number"
+          },
+          {
+            "name": "v2026",
+            "description": "2026 (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-nc-unaffiliated",
+      "path": "data/north-carolina-early-vote-2026/chart-nc-unaffiliated.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "North Carolina unaffiliated early voters by last primary ballot. North Carolina early-vote file with primary history. Only unaffiliated early voters who have voted in a primary are counted.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "lastPrimaryBallot",
+            "description": "Last primary ballot",
+            "type": "string"
+          },
+          {
+            "name": "votersThousands",
+            "description": "Early voters (thousands)",
+            "type": "number"
+          },
+          {
+            "name": "share",
+            "description": "Share (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-nc-county-shift",
+      "path": "data/north-carolina-early-vote-2026/chart-nc-county-shift.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Every large county moved toward Democrats, and several suburban and exurban counties switched sides. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Registered party of early voters, same day in both years.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "County",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "description": "Group",
+            "type": "string"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022",
+            "type": "number"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026",
+            "type": "number"
+          },
+          {
+            "name": "ballots2026",
+            "description": "2026 early ballots",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-nc-early-mix",
+      "path": "data/north-carolina-early-vote-2026/chart-nc-early-mix.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "North Carolina’s early voters are younger and less white than in 2022. ElectIndex early-vote tracker, North Carolina statewide composition. Calculations by Carmena’s Overton. Shares of early mail and in-person voters, 9 days before Election Day in each year; race and age shares are calculated separately.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "Group",
+            "type": "string"
+          },
+          {
+            "name": "v2022",
+            "description": "2022 (%)",
+            "type": "number"
+          },
+          {
+            "name": "v2026",
+            "description": "2026 (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-nc-voter-history",
+      "path": "data/north-carolina-early-vote-2026/chart-nc-voter-history.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Voters who cast ballots in all four recent general elections are 67% of the early vote, and they lean further toward Democrats than in 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026, from each cycle’s matched voter file.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "Voted in previous four generals",
+            "type": "string"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022",
+            "type": "number"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026",
+            "type": "number"
+          },
+          {
+            "name": "share2022",
+            "description": "2022 share (%)",
+            "type": "number"
+          },
+          {
+            "name": "share2026",
+            "description": "2026 share (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-primary-proxy",
+      "path": "data/north-carolina-early-vote-2026/chart-primary-proxy.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "North Carolina: party of last primary against registration. North Carolina voter registration and early-vote files (1,096,068 early voters). The proxy moves unaffiliated primary voters into a party, and partisans who skip primaries into Other.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "measure",
+            "description": "Measure",
+            "type": "string"
+          },
+          {
+            "name": "lastPrimary",
+            "description": "Party of last primary",
+            "type": "number"
+          },
+          {
+            "name": "registration",
+            "description": "Registration (truth)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-unaffiliated-split",
+      "path": "data/north-carolina-early-vote-2026/chart-unaffiliated-split.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "North Carolina 2024: unaffiliated voters for President and for Governor. North Carolina 2024 turnout by party and certified results. Estimated from totals, assuming partisans voted for their own party.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "race",
+            "description": "Race",
+            "type": "string"
+          },
+          {
+            "name": "demTwoPartyShare",
+            "description": "Democratic two-party share, about (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-habit-nc-groups",
+      "path": "data/north-carolina-early-vote-2026/chart-habit-nc-groups.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "North Carolina’s most consistent Democrats have accelerated the most since 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 8 days before Election Day in each year. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "Voted in previous four generals",
+            "type": "string"
+          },
+          {
+            "name": "v2022",
+            "description": "2022 (%)",
+            "type": "number"
+          },
+          {
+            "name": "v2026",
+            "description": "2026 (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "north-carolina-early-vote-2026--chart-habit-nc-unit",
+      "path": "data/north-carolina-early-vote-2026/chart-habit-nc-unit.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Of every 100 North Carolina Democratic four-time voters, 55 have already voted. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. 8 days before Election Day in each year.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "Year",
+            "type": "string"
+          },
+          {
+            "name": "value",
+            "description": "Voted early (%)",
+            "type": "number"
+          },
+          {
+            "name": "early",
+            "description": "Early ballots",
+            "type": "number"
+          },
+          {
+            "name": "registered",
+            "description": "Registered four-time Democrats",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "reliable-voters-early-turnout-2026--chart-habit-party-rates",
+      "path": "data/reliable-voters-early-turnout-2026/chart-habit-party-rates.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Democrats have used more of their reliable-voter pool, and the gap has widened since 2022. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8. Four-time voters voted in 2014–2020 for the 2022 comparison and 2018–2024 for 2026. These are changing cohorts, not a panel of the same people.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "group",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "label",
+            "description": "Party",
+            "type": "string"
+          },
+          {
+            "name": "v2022",
+            "description": "2022 (%)",
+            "type": "number"
+          },
+          {
+            "name": "v2026",
+            "description": "2026 (%)",
+            "type": "number"
+          },
+          {
+            "name": "early2026",
+            "description": "2026 early ballots",
+            "type": "number"
+          },
+          {
+            "name": "registered2026",
+            "description": "2026 registered",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "reliable-voters-early-turnout-2026--chart-habit-overall-margins",
+      "path": "data/reliable-voters-early-turnout-2026/chart-habit-overall-margins.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Early voters lean further toward Democrats than at the same point in 2022 and 2024. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Matched counties across all three years. Margins are (Democratic minus Republican ballots) / all early ballots, including other parties. Coverage: North Carolina 100 counties, Florida 67, Kansas 103 matched counties. The statewide-total and voting-history extracts are separate source slices and do",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "year",
+            "description": "Year",
+            "type": "number"
+          },
+          {
+            "name": "margin",
+            "description": "Party margin",
+            "type": "number"
+          },
+          {
+            "name": "days",
+            "description": "Days before Election Day",
+            "type": "number"
+          },
+          {
+            "name": "counties",
+            "description": "Matched counties",
+            "type": "number"
+          },
+          {
+            "name": "democrats",
+            "description": "democrats",
+            "type": "number"
+          },
+          {
+            "name": "republicans",
+            "description": "republicans",
+            "type": "number"
+          },
+          {
+            "name": "other",
+            "description": "other",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "reliable-voters-early-turnout-2026--chart-habit-gap-change",
+      "path": "data/reliable-voters-early-turnout-2026/chart-habit-gap-change.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "The gap between the parties’ four-time voters widened most in North Carolina. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "change",
+            "description": "Change (points)",
+            "type": "number"
+          },
+          {
+            "name": "gap2022",
+            "description": "2022 gap",
+            "type": "number"
+          },
+          {
+            "name": "gap2026",
+            "description": "2026 gap",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "reliable-voters-early-turnout-2026--chart-habit-gap-states",
+      "path": "data/reliable-voters-early-turnout-2026/chart-habit-gap-states.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Among four-time voters, Democrats’ lead in early-turnout rate grew in all seven states. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8. Prior elections: 2014–2020 for 2022, 2018–2024 for 2026. Registered party, not vote choice.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "description": "Party basis",
+            "type": "string"
+          },
+          {
+            "name": "margin2022",
+            "description": "2022 gap (points)",
+            "type": "number"
+          },
+          {
+            "name": "margin2026",
+            "description": "2026 gap (points)",
+            "type": "number"
+          },
+          {
+            "name": "days",
+            "description": "Days before Election Day",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "reliable-voters-early-turnout-2026--chart-habit-lead-share",
+      "path": "data/reliable-voters-early-turnout-2026/chart-habit-lead-share.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Changes in four-time voters’ turnout account for about half or more of the turnout-driven gain in Democrats’ early lead. Compiled by Carmena’s Overton from state and county early-vote records and voter registration; calculations are ours. Four-time voters’ part: the 2026 lead minus the lead with only four-time voters returned to their 2022 rates. Same day in both years; days before Election Day: North Carolina 8, Kansas 7, Florida 8, Iowa 8, Ohio 8, Georgia 8, Texas 8.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "label",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "description": "Party basis",
+            "type": "string"
+          },
+          {
+            "name": "part",
+            "description": "From four-time voters (%)",
+            "type": "number"
+          },
+          {
+            "name": "gainFromTurnout",
+            "description": "Turnout-driven gain (ballots)",
+            "type": "number"
+          },
+          {
+            "name": "fromFourTime",
+            "description": "From four-time voters (ballots)",
+            "type": "number"
+          },
+          {
+            "name": "lead2026",
+            "description": "2026 Democratic early lead (ballots)",
+            "type": "number"
+          },
+          {
+            "name": "leadIfFourTimeAt2022",
+            "description": "Lead if four-time voters were at their 2022 pace",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "senate-battlegrounds-early-vote-2026--senate-battlegrounds",
+      "path": "data/senate-battlegrounds-early-vote-2026/senate-battlegrounds.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Early voting in ten Senate battlegrounds. 2026 early ballots in ten Senate battleground states as of Oct 23, 2026, 11 days out, as a percentage of each state’s count at the same point in 2024 and 2022, with the party mix of 2026 early voters from the best available source per state.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "st",
+            "description": "State abbreviation",
+            "type": "string"
+          },
+          {
+            "name": "state",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "early_2026",
+            "description": "2026 early ballots, Oct 23, 2026",
+            "type": "number"
+          },
+          {
+            "name": "early_2024_same_point",
+            "description": "2024 early ballots at the same point (NBC News tracker)",
+            "type": "number"
+          },
+          {
+            "name": "early_2022_same_point",
+            "description": "2022 early ballots at the same point (NBC News tracker)",
+            "type": "number"
+          },
+          {
+            "name": "pace_vs_2024_pct",
+            "description": "2026 as % of 2024 at the same point, one decimal (the site shows whole numbers)",
+            "type": "number"
+          },
+          {
+            "name": "pace_vs_2022_pct",
+            "description": "2026 as % of 2022 at the same point",
+            "type": "number"
+          },
+          {
+            "name": "dem_pct",
+            "description": "Democratic share of early voters, %",
+            "type": "number"
+          },
+          {
+            "name": "rep_pct",
+            "description": "Republican share, %",
+            "type": "number"
+          },
+          {
+            "name": "other_pct",
+            "description": "Other share, %",
+            "type": "number"
+          },
+          {
+            "name": "dem_minus_rep",
+            "description": "D−R points; negative = Republican lead",
+            "type": "number"
+          },
+          {
+            "name": "source_tag",
+            "description": "reg. = state registration; primary = party of last primary from state records; model = vendor estimate (TargetSmart, via NBC)",
+            "type": "string"
+          },
+          {
+            "name": "party_source",
+            "description": "Where the party mix comes from",
+            "type": "string"
+          },
+          {
+            "name": "party_as_of",
+            "description": "Date of the party figures",
+            "type": "string"
+          },
+          {
+            "name": "note",
+            "description": "State-specific caveat",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "senate-battlegrounds-early-vote-2026--chart-battleground-pace",
+      "path": "data/senate-battlegrounds-early-vote-2026/chart-battleground-pace.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Early voting in ten Senate battlegrounds: 50% to 98% of 2024’s pace. State early-vote data via UF Election Lab and NBC News, Oct 23, 2026, against NBC at the same point in 2024. Party mix: state registration files (reg.), party of last primary from state records (primary; Ohio as of Oct 22, Texas through Oct 21), or vendor estimate, TargetSmart via NBC (model). 2024 was a presidential year, so every state is below its 2024 count. Party mix is not vote choice.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "state",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "pace",
+            "description": "Early ballots, % of 2024 at the same point",
+            "type": "number"
+          },
+          {
+            "name": "dr",
+            "description": "D−R of early voters (points)",
+            "type": "number"
+          },
+          {
+            "name": "drSource",
+            "description": "Party source",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-midterm-2026-indicators--midterm-indicators",
+      "path": "data/us-midterm-2026-indicators/midterm-indicators.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "2026 midterm indicators, 11 days out. Headline indicators for the 2026 midterms as of Oct 23, 2026, with the same point in earlier cycles: generic ballot average, early ballots cast, their share of prior turnout, and the D−R margin among early voters.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "indicator",
+            "description": "What is measured",
+            "type": "string"
+          },
+          {
+            "name": "cycle",
+            "description": "Election year",
+            "type": "number"
+          },
+          {
+            "name": "value",
+            "description": "Value; negative D−R values are Republican leads",
+            "type": "number"
+          },
+          {
+            "name": "unit",
+            "description": "Unit of the value",
+            "type": "string"
+          },
+          {
+            "name": "as_of",
+            "description": "Date of the figure (same point before Election Day)",
+            "type": "string"
+          },
+          {
+            "name": "source",
+            "description": "Source of the figure",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-midterm-2026-indicators--generic-ballot",
+      "path": "data/us-midterm-2026-indicators/generic-ballot.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Generic ballot 11 days out and the final House vote. The generic ballot polling average 11 days before Election Day and on Election Day, with the national House popular vote, for 2018, 2022 and 2026. Values are D−R points; negative values are Republican leads.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "cycle",
+            "description": "Election year",
+            "type": "number"
+          },
+          {
+            "name": "average_11_days_out",
+            "description": "Average 11 days before Election Day, D−R points",
+            "type": "number"
+          },
+          {
+            "name": "average_election_day",
+            "description": "Average on Election Day, D−R points",
+            "type": "number"
+          },
+          {
+            "name": "house_popular_vote",
+            "description": "National House popular vote, D−R points",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-midterm-2026-indicators--early-voters-by-party",
+      "path": "data/us-midterm-2026-indicators/early-voters-by-party.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Early voters by party, national, 11 days out. The national party split of early voters 11 days before Election Day in 2026, 2024 and 2022, as published by the NBC News / TargetSmart early-vote tracker.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "cycle",
+            "description": "Election year",
+            "type": "number"
+          },
+          {
+            "name": "as_of",
+            "description": "Date of the reading",
+            "type": "string"
+          },
+          {
+            "name": "dem_pct",
+            "description": "Democratic share of early voters, %",
+            "type": "number"
+          },
+          {
+            "name": "rep_pct",
+            "description": "Republican share, %",
+            "type": "number"
+          },
+          {
+            "name": "other_pct",
+            "description": "Other share, %",
+            "type": "number"
+          },
+          {
+            "name": "dem_minus_rep",
+            "description": "Democratic minus Republican share, points",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-midterm-2026-indicators--chart-generic-ballot",
+      "path": "data/us-midterm-2026-indicators/chart-generic-ballot.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Generic ballot 11 days out, against the final House vote. Silver Bulletin average (2026); 538 average (2018, 2022). 2022 polls understated Republicans: R+0.6 in the average, R+2.7 in the House vote.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "year",
+            "description": "Year",
+            "type": "number"
+          },
+          {
+            "name": "average11DaysOut",
+            "description": "Average, 11 days out",
+            "type": "number"
+          },
+          {
+            "name": "finalHouseVote",
+            "description": "Final House vote",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-midterm-2026-indicators--chart-banked-share",
+      "path": "data/us-midterm-2026-indicators/chart-banked-share.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "21.7M early ballots so far, against 2024 at the same point. State early-vote reports at 11 days out; total turnout 2022 and 2024. The 2026 share is of 2022’s total turnout; the 2024 share is of 2024’s. Raw ballots are at 61% of 2024’s pace, a presidential year.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "measure",
+            "description": "Measure",
+            "type": "string"
+          },
+          {
+            "name": "value2026",
+            "description": "2026",
+            "type": "number"
+          },
+          {
+            "name": "value2024",
+            "description": "2024, same point",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-midterm-2026-indicators--chart-early-mix",
+      "path": "data/us-midterm-2026-indicators/chart-early-mix.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Early voters are D+15 this year. At the same point in 2024 they were D+2. NBC News / TargetSmart national early-vote tracker, Oct 23, 2026; 2024 at the same point (Oct 25, 2024). TargetSmart models party in 21 states, and party is not vote choice. Democrats have voted early in larger numbers since 2020.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "party",
+            "description": "Party",
+            "type": "string"
+          },
+          {
+            "name": "share2026",
+            "description": "2026",
+            "type": "number"
+          },
+          {
+            "name": "share2024",
+            "description": "2024, same point",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-midterm-2026-indicators--chart-modelled-share",
+      "path": "data/us-midterm-2026-indicators/chart-modelled-share.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Where the tracker’s party split is a model. NBC News early-vote tracker, party “modeled by TargetSmart” in 21 states; early-vote counts by state as of Oct 23, 2026 (10.4M of 21.7M early votes). “Not marked as modelled” is NBC’s labelling, not a check we ran.",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "group",
+            "description": "Group",
+            "type": "string"
+          },
+          {
+            "name": "states",
+            "description": "States",
+            "type": "string"
+          },
+          {
+            "name": "shareOfEarlyVotes",
+            "description": "Share of 2026 early votes (%)",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}

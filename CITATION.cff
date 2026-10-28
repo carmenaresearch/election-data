@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below and link to https://carmenaresearch.com/data/"
+type: dataset
+title: "US election and early-vote data, 2016–2026"
+abstract: "Open CSV tables behind Carmena’s Overton charts on the 2026 US midterms: early voting by party, county and vote history, the generic ballot and Senate battleground early-vote pace."
+authors:
+  - name: "Carmena’s Overton & Electoral Research"
+    website: "https://carmenaresearch.com/"
+    email: "queries@carmenaresearch.com"
+license: CC-BY-4.0
+url: "https://carmenaresearch.com/data/"
+repository-code: "https://github.com/carmenaresearch/election-data"
+date-released: "2026-10-28"
+keywords:
+  - elections
+  - early voting
+  - voter turnout
+  - 2026 midterms
+  - United States
