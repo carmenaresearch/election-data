@@ -12,9 +12,10 @@ Published by [Carmena’s Overton & Electoral Research](https://carmenaresearch.
 - **chart-banked-share.csv** (3 rows): 21.7M early ballots so far, against 2024 at the same point. Columns: `measure` Measure; `value2026` 2026; `value2024` 2024, same point. Source page: https://carmenaresearch.com/data/#chart-banked-share
 - **chart-early-mix.csv** (3 rows): Early voters are D+15 this year. At the same point in 2024 they were D+2. Columns: `party` Party; `share2026` 2026; `share2024` 2024, same point. Source page: https://carmenaresearch.com/data/#chart-early-mix
 - **chart-modelled-share.csv** (2 rows): Where the tracker’s party split is a model. Columns: `group` Group; `states` States; `shareOfEarlyVotes` Share of 2026 early votes (%). Source page: https://carmenaresearch.com/data/#chart-modelled-share
+- **chart-early-vs-2022-total.csv** (15 rows): Thirteen states have already cast more early ballots than in their entire 2022 early vote. Columns: `state` State; `group` Group; `early2026` Early ballots, 2026 (Oct 29); `early2022` Early ballots, all of 2022; `pct` 2026 so far, % of all 2022. Source page: https://carmenaresearch.com/data/#chart-early-vs-2022-total
 
 ## Provenance and method
-Carmena’s Overton compiles cumulative early-ballot counts from state and county election records and joins them to voter registration and vote history. Calculations are ours; the method is described on our [methodology page](https://carmenaresearch.com/methodology/). Last updated 2026-10-23. Updated as our tracking runs, typically weekly during the early-voting period.
+Carmena’s Overton compiles cumulative early-ballot counts from state and county election records and joins them to voter registration and vote history. Calculations are ours; the method is described on our [methodology page](https://carmenaresearch.com/methodology/). Last updated 2026-10-29. Updated as our tracking runs, typically weekly during the early-voting period.
 
 ## Caveats
 - Party is not vote choice. TargetSmart models party in 21 states holding 48% of 2026 early votes (Oct 23, 2026).
@@ -30,6 +31,7 @@ Carmena’s Overton compiles cumulative early-ballot counts from state and count
 - The 2026 share is of 2022’s total turnout; the 2024 share is of 2024’s. Raw ballots are at 61% of 2024’s pace, a presidential year.
 - TargetSmart models party in 21 states, and party is not vote choice. Democrats have voted early in larger numbers since 2020.
 - “Not marked as modelled” is NBC’s labelling, not a check we ran.
+- 2024’s early vote was larger than 2026’s so far in every state shown except New Jersey (110% of 2024).
 
 ## Third-party figures
 - Generic ballot averages belong to Silver Bulletin and 538; early-vote counts and party splits come from the NBC News / TargetSmart tracker. Credit those sources when reusing their figures.
@@ -41,6 +43,6 @@ Carmena’s Overton compiles cumulative early-ballot counts from state and count
 - Our data page: [carmenaresearch.com/data](https://carmenaresearch.com/data/)
 
 ## Licence and citation
-CC BY 4.0. Credit “Carmena’s Overton & Electoral Research” and link to the file or page you used. Citation: Carmena’s Overton & Electoral Research. “US Midterm 2026 Indicators: Early Vote, Ballot” (CSV). Last updated 2026-10-23. https://carmenaresearch.com/data/. Licensed CC BY 4.0.
+CC BY 4.0. Credit “Carmena’s Overton & Electoral Research” and link to the file or page you used. Citation: Carmena’s Overton & Electoral Research. “US Midterm 2026 Indicators: Early Vote, Ballot” (CSV). Last updated 2026-10-29. https://carmenaresearch.com/data/. Licensed CC BY 4.0.
 
 More public data, with JSON copies and a changelog, is on our [data page](https://carmenaresearch.com/data/). In-depth data and custom research are available for commercial use on request. New analysis goes out by email first: [subscribe](https://carmenaresearch.com/#newsletter).

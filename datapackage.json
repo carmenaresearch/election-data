@@ -4,8 +4,8 @@
   "title": "US election and early-vote data, 2016–2026",
   "description": "Public CC BY 4.0 tables behind Carmena’s Overton & Electoral Research charts: early voting by party, county and vote history, the generic ballot, Senate battleground pace and tracker-method checks.",
   "homepage": "https://carmenaresearch.com/data/",
-  "version": "2026-10-28",
-  "created": "2026-10-28",
+  "version": "2026-10-30",
+  "created": "2026-10-30",
   "licenses": [
     {
       "name": "CC-BY-4.0",
@@ -1929,6 +1929,48 @@
           {
             "name": "shareOfEarlyVotes",
             "description": "Share of 2026 early votes (%)",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "us-midterm-2026-indicators--chart-early-vs-2022-total",
+      "path": "data/us-midterm-2026-indicators/chart-early-vs-2022-total.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "description": "Thirteen states have already cast more early ballots than in their entire 2022 early vote. Early ballots (mail and in person) by state via NBC News/TargetSmart: 2026 five days before Election Day (Oct 29), 2022 the final early-vote count. Same source in both years. 2024’s early vote was larger than 2026’s so far in every state shown except New Jersey (110% of 2024).",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "schema": {
+        "fields": [
+          {
+            "name": "state",
+            "description": "State",
+            "type": "string"
+          },
+          {
+            "name": "group",
+            "description": "Group",
+            "type": "string"
+          },
+          {
+            "name": "early2026",
+            "description": "Early ballots, 2026 (Oct 29)",
+            "type": "number"
+          },
+          {
+            "name": "early2022",
+            "description": "Early ballots, all of 2022",
+            "type": "number"
+          },
+          {
+            "name": "pct",
+            "description": "2026 so far, % of all 2022",
             "type": "number"
           }
         ]
